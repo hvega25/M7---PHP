@@ -1,8 +1,7 @@
 <?php
 
-
 include("db_connection_pdo.php");//Cridem a la nostra connexió PDO amb la BBDD
-
+include_once 'db.php';
 //Fem la QUERY per obtindre tota la info de la taula
 $consulta = "SELECT * FROM PRODUCT";
 
